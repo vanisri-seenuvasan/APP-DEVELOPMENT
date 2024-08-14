@@ -1,0 +1,27 @@
+
+
+.card-no-hover {
+  box-shadow: none;
+  border: none;
+  transition: none; /* Remove transition effects */
+}
+
+.card-no-hover:hover {
+  background-color: transparent; /* Ensure no background color change on hover */
+}
+
+.card-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: black;
+}
+
+.d-flex {
+  display: flex;
+}

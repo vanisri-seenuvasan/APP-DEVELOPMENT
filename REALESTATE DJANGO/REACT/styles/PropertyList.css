@@ -1,0 +1,30 @@
+/* Add this in your CSS file */
+.property-card {
+    border: 1px solid #FFEDC2;
+    background-color: #FFF8E1;
+    border-radius: 8px;
+  }
+  
+  .property-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF6F00;
+  }
+  
+  .property-card-subtitle {
+    margin-bottom: 12px;
+    color: #FF6F00;
+  }
+  
+  .property-card-button {
+    color: #D32F2F;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .property-card-icon {
+    float: right;
+    font-size: 40px;
+    color: #FFEDC2;
+  }
+  

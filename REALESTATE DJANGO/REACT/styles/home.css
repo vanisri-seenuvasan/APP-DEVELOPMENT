@@ -1,0 +1,52 @@
+.contact-section {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.contact-info li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control {
+  border-radius: 0.25rem;
+}
+
+.contact-form .form-label {
+  font-weight: bold;
+}
+
+.contact-form .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+footer {
+  background-color: #343a40;
+}
+
+footer .nav-link {
+  color: #ffffff;
+  margin: 0 0.5rem;
+}
+
+.service-card img {
+  border-radius: 0.5rem;
+}

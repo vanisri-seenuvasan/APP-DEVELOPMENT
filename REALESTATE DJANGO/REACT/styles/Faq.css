@@ -1,0 +1,54 @@
+.background-image {
+    background-image: url('https://www.onpage.com/wp-content/uploads/faq.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh; /* Half the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .faq-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f9f9f9; /* Light background for the FAQ section */
+  }
+  
+  .faq-item {
+    flex: 0 1 48%; /* Adjust the width to spread out */
+    margin-bottom: 40px; /* Increase the margin to create more space between containers */
+  }
+  
+  .faq-question {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  .faq-question .MuiTypography-root {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem; /* Increase font size */
+  }
+  
+  .faq-question:hover .MuiTypography-root {
+    color: blue; /* Change color on hover */
+  }
+  
+  .faq-answer {
+    background-color: #ffffff;
+    font-weight: normal; /* Ensure the answer is not bold */
+  }
+  
+  .faq-answer .MuiTypography-root {
+    color: black;
+    font-size: 1.1rem; /* Increase font size */
+  }
+  
+  .faq-icon {
+    color: darkblue;
+    transform: scale(1.5); /* Increase the size of the icon */
+  }
+  

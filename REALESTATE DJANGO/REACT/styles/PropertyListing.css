@@ -1,0 +1,123 @@
+/* CSS for cart icon and count color */
+.top-right {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  background: #ff5722;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.top-right:hover {
+  background: #e64a19;
+  transform: scale(1.1);
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #e64a19;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+/* CSS for card buttons */
+.card-body .d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body .btn {
+  flex: 1;
+  margin: 0 5px;
+}
+
+/* Button styles */
+.card-body .btn-warning {
+  background-color: #f7810a;
+  border-color: #f7810a;
+}
+
+.card-body .btn-warning:hover {
+  background-color: #ff962b;
+  border-color: #ff962b;
+}
+
+.card-body .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.card-body .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .top-right {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    line-height: 50px;
+  }
+
+  .cart-count {
+    width: 20px;
+    height: 20px;
+    font-size: 0.8rem;
+  }
+
+  .card-body .d-flex {
+    flex-direction: column;
+  }
+
+  .card-body .btn {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .top-right {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    line-height: 40px;
+  }
+
+  .cart-count {
+    width: 15px;
+    height: 15px;
+    font-size: 0.7rem;
+  }
+
+  .card-body .btn {
+    font-size: 0.9rem;
+  }
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns */
+  gap: 16px; /* Space between items */
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+}

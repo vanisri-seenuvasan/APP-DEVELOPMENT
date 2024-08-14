@@ -1,0 +1,57 @@
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  /* Card title and text styling */
+  .card-title {
+    font-size: 1.5rem; /* Increase font size of the card title */
+  }
+  
+  .card-text {
+    font-size: 1.1rem; /* Increase font size of the card text */
+  }
+  
+  /* Icon styling */
+  .fas.fa-heart {
+    color: #9e9e9e; /* Default color for heart icon */
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .fas.fa-heart:hover {
+    color: #f44336; /* Color on hover */
+    transform: scale(1.2); /* Slightly increase size on hover */
+  }
+  
+  .fas.fa-share-alt {
+    color: #9e9e9e; /* Default color for share icon */
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .fas.fa-share-alt:hover {
+    color: #0d47a1; /* Color on hover */
+    transform: scale(1.2); /* Slightly increase size on hover */
+  }
+  
+  /* Image styling */
+  .bg-image img {
+    transition: transform 0.3s ease;
+  }
+  
+  .bg-image:hover img {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Remove grey overlay effect */
+  .bg-image .mask {
+    background-color: transparent !important; /* Ensure no color overlay */
+  }
+  

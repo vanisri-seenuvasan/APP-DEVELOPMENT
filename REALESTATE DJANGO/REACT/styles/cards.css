@@ -1,0 +1,38 @@
+/* src/components/cards.css */
+.carousel-card {
+    position: relative;
+  }
+  
+  .carousel-card img {
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .carousel-card-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+  }
+  
+  .carousel-card:hover .carousel-card-details {
+    opacity: 1;
+  }
+  
+  .carousel-card-details h3,
+  .carousel-card-details p {
+    margin: 0;
+  }
+  
+  .carousel-card-details p {
+    margin-top: 5px;
+  }
+  

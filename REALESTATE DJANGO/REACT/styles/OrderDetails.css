@@ -1,0 +1,65 @@
+/* OrderDetails.css */
+
+/* Apply background image to the entire body */
+body {
+    margin: 0;
+    padding: 0;
+   /* background-image: url('https://img.freepik.com/free-vector/creative-team-concept-illustration_114360-3894.jpg?w=996&t=st=1723381424~exp=1723382024~hmac=9e7ef27e33e7001030b185f9d7d827f51c51bd4be4fd47c259c139551a777db6');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   /* Set transparency for background image */
+    height: 100vh; /* Ensure background covers the full viewport height */
+}
+.large-font {
+    font-size: 20px;
+}
+
+/* Container for order details */
+.order-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 35px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1.0); /* Slightly transparent white background for card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+    margin-top: 100px; /* Ensure there's space at the top */
+}
+
+/* Style for property image */
+.property-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+p strong {
+    color: #333;
+}
+
+.loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+}

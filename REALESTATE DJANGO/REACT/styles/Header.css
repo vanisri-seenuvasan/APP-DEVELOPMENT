@@ -1,0 +1,121 @@
+@keyframes colorChange {
+  0% {
+    color: #333;
+  }
+  50% {
+    color: #007bff; /* Change to your desired color */
+  }
+  100% {
+    color: #333;
+  }
+}
+
+.animatedText {
+  animation: colorChange 3s infinite; /* 3s animation cycle, infinite loop */
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+.animatedText:hover {
+  transform: scale(1.1); /* Slightly scale up the text on hover */
+}
+
+.home-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-container {
+  margin-top: 20px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  position: relative;
+  font-size: 20px;
+  padding: 50px 80px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black; /* Arrow color */
+  margin-left: 10px; /* Space between text and arrow */
+  transition: transform 0.3s ease;
+}
+
+.nav-item:hover:after {
+  transform: translateY(2px); /* Slight movement on hover */
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.dropdown.show {
+  display: block;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.dropdown-row {
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.dropdown-column {
+  flex: 1;
+
+  padding: 30px 30px;
+  font-variant: lowercase; /* Ensures text is displayed in lowercase */
+  color: black; /* Sets text color to black */
+}
+
+.dropdown-column h6 {
+  text-transform: uppercase; /* Optional: Capitalize headings */
+  color: black;
+  font-weight: bold; /* Sets heading color to black */
+}
+
+.dropdown-column p {
+  text-transform: lowercase;
+  color: black;
+  font-weight: lighter; /* Ensures paragraph text is lowercase */
+}
+
+.dropdown-content p:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+  color: #333; /* Text color on hover */
+  padding: 10px; /* Adds padding to improve the hover effect */
+  border-radius: 4px; /* Rounded corners */
+}
+.red-hr {
+  border: 1px solid red;
+  margin: 10px 0;
+}
